@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/image/lotus-1205631_1280.jpg);
+}
+.container{
+   
+    /* text-align: center; */
+    height: 100vh;
+}
+form{
+    /* background-color: wheat; */
+    width: 41vw;
+    padding: 1vw;
+    margin-left: 30vw;
+}
+form input{
+    padding-left: 1vw;
+    width: 40vw;
+    margin-top: 2vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#product_list{
+    /* background-color: wheat; */
+    width: 40vw;
+    margin-left: 30vw;
+    padding-left: 3vw;
+    height: 87vh;
+    overflow: auto;
+}
+#product_list::-webkit-scrollbar{
+    border: none;
+}
+.product{
+    background-color: white;
+    display: flex;
+    width: 35vw;
+    padding: 1vw;
+    margin-top: 2vw;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 5vw;
+    
+}
+.product_details{
+    /* background-color: blue; */
+    /* margin-left: 2vw; */
+    /* margin-top: -1vw; */
+    padding-left: 1vw;
+    
+}
+.product_details h3{
+    margin-top: 1vw;
+}
+.product_details h2{
+    color: gray;
+}
+.product_details h3 del{
+    color: red;
+    margin-left: 1vw;
+    font-size: 15px;
+}
+.product_details i{
+    color: rgb(126, 126, 5);
+    margin-top: 1vw;
+}
